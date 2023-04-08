@@ -57,6 +57,10 @@ const App = () => {
           path="/politics"
           element={loading ? <Loading /> : <NewsItems items={items} />}
         />
+        <Route
+          path="/*"
+          element={loading ? <Loading /> : <NewsItems items={items} />}
+        />
       </Routes>
       <Footer/>
     </div>
