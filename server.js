@@ -9,5 +9,8 @@ app.use(express.static('public'))
 app.get('/',(req,res)=>{
     res.sendFile(__dirname+'/public/index.html');
 })
+app.get('/*',(req,res)=>{
+    res.sendFile(__dirname+'/public/index.html');
+})
 
 app.listen(port,()=> console.log("server has been started on port "+port));
