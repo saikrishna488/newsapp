@@ -6,7 +6,7 @@ const Footer = () => {
           <section className="mb-4" >
             <a
               className="btn btn-link btn-floating btn-lg text-dark m-1"
-              href="https://github.com/saikrishna488"
+              href="https://instagram.com/captenium"
               role="button"
               data-mdb-ripple-color="dark"
             >
@@ -14,7 +14,7 @@ const Footer = () => {
             </a>
             <a
               className="btn btn-link btn-floating btn-lg text-dark m-1"
-              href="https:instagram.com/captenium"
+              href="https://github.com/saikrishna488"
               role="button"
               data-mdb-ripple-color="dark"
             >
