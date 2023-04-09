@@ -1,10 +1,10 @@
 
-const NewsItems = ({items}) => {
+const NewsItems = ({items,currentItems}) => {
   return (
     <div>
         <div className="d-flex justify-content-center container">
           <div className="row">
-            {items.map((val) => {
+            {currentItems.map((val) => {
               return (
                 <div className="col-sm" key={val.url}>
                   <div className="card m-4" style={{ width: "18rem" }}>

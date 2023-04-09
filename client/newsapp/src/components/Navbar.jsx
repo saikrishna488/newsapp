@@ -5,9 +5,9 @@ const Navbar = ({category,page}) => {
   
   if(page)
   return (
-    <div>
+    <div className='mb-5'>
         <div>
-          <nav className="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+          <nav className="navbar navbar-expand-lg fixed-top bg-body-tertiary" data-bs-theme="dark">
             <div className="container-fluid">
               <a className="navbar-brand" href="#">
                 NewsApp
